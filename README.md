@@ -28,3 +28,8 @@ Se pone en el package.json lo siguiente:
   }
 }
 ```
+
+# Paso 03
+
+Se organiza la estrutura del proyecto para tener el punto de entrada **index.js** y llamar
+al Componente principal de la aplicación App.js ubicado en el directorio **containers**
