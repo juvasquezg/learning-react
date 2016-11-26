@@ -33,3 +33,16 @@ Se pone en el package.json lo siguiente:
 
 Se organiza la estrutura del proyecto para tener el punto de entrada **index.js** y llamar
 al Componente principal de la aplicación App.js ubicado en el directorio **containers**
+
+# Paso 04
+
+Se instala **redbox-react** para ver un trace log de los errores en un componente de react
+
+```bash
+yarn add redbox-react
+```
+
+Se agrega  **Hot Module Replacement** (HRM) para cargar solo los módulos que cambian y no toda la aplicación
+en desarrollo. Para esto de modifica el archivo **src/index.js**
+
+
