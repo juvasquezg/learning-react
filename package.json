@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+	"eslint": "^3.9.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
@@ -15,30 +20,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "eslint-config-airbnb",
-    "env": {
-      "browser": true,
-      "node": true
-    },
-    "parser": "babel-eslint",
-    "rules": {
-      "semi": [2, "never"],
-      "react/no-multi-comp": 0,
-      "import/default": 0,
-      "import/no-duplicates": 0,
-      "import/named": 0,
-      "import/namespace": 0,
-      "import/no-unresolved": 0,
-      "import/no-named-as-default": 2,
-      "comma-dangle": 0,  // not sure why airbnb turned this on. gross!
-      "indent": [2, 2, {"SwitchCase": 1}],
-      "react/jsx-boolean-value": 0,
-      "react/jsx-first-prop-new-line": 0,
-      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-      "no-console": 0,
-      "no-alert": 0
-    } 
   }
 }
